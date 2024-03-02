@@ -3,7 +3,7 @@ body{
     background-color: #00ff80;
 }
 
-.photo-album{
+.photo-album>ul>li>img{
     display: flex;
     position: absolute;
     top: 440px;
@@ -93,12 +93,13 @@ body{
     top: 5px;
 }
 
-.variant{
+.variant>ul>li>img{
+    display: flex;
     position: relative;
     top: 40px;
 }
 
-#variant1{
+h4{
     color: lightgray;
 }
 
